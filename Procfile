@@ -1,1 +1,1 @@
-worker: PinBot.py
+worker: python PinBot.py
