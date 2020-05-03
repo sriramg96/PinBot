@@ -1,8 +1,8 @@
 import discord
-
+import os
 
 # Token will have to be updated accordingly
-TOKEN = ""
+TOKEN = os.environ['TOKEN']
 client = discord.Client()
 
 @client.event
